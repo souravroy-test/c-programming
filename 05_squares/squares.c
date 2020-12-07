@@ -39,7 +39,7 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
   //compute the max of size1 and (y_offset + size2).  Call this h
   h = max(size1,( y_offset + size2));
   //count from 0 to h. Call the number you count with y
-  for(y=0; y<=h; y++){
+  for(y=0; y<h; y++){
     //count from 0 to w. Call the number you count with x
     for(x=0; x<=w; x++){
       //check if  EITHER
